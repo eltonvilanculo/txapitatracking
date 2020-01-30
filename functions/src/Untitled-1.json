@@ -1,0 +1,50 @@
+[
+    {
+        "ride": {
+            "id": "-LjpUbaw-k1jNs6Q300V",
+            "driverId": "si89Wmsw3mP0AaMc0Eot5t9TgX83",
+            "driverName": "Pedro dark",
+            "driverRating": 0,
+            "maleGender": false,
+            "startTime": 1563191835489,
+            "numberOfSeats": 1,
+            "vehicleColor": 0,
+            "vehicleFuel": "DIESEL",
+            "trajectory": "zyl}C{cweE|A~@fB{DL[mAi@g@O]f@aAtB]BSCYIKa@o@aDFc@DKHGZCb@?l@Z^RZ@NANKjA{Bh@o@dCmFnH_P`FqK~JqT~MyYnEuJvBsEjEqJdCoFPNoGfNKR"
+        },
+        "price": 211229.83794274862,
+        "distance": 3372.90192170366,
+        "startPoint": {
+            "latitude": -25.95758,
+            "longitude": 32.56398
+        },
+        "endPoint": {
+            "latitude": -25.96825,
+            "longitude": 32.58327
+        }
+    },
+    {
+        "ride": {
+            "id": "-Lk-KH7dvsLWY_k7RldQ",
+            "driverId": "si89Wmsw3mP0AaMc0Eot5t9TgX83",
+            "driverName": "Pedro dark",
+            "driverRating": 0,
+            "maleGender": false,
+            "startTime": 1563373676987,
+            "numberOfSeats": 3,
+            "vehicleColor": 0,
+            "vehicleFuel": "DIESEL",
+            "trajectory": "zyl}C{cweE|A~@fB{DL[mAi@g@O]f@aAtB]BSCYIKa@o@aDFc@DKHGZCb@?l@Z^RZ@NANKjA{Bh@o@dCmFnH_P`FqK~JqT~MyYnEuJvBsEjEqJdCoFPNoGfNKR"
+        },
+        "price": 211229.83794274862,
+        "distance": 3372.90192170366,
+        "startPoint": {
+            "latitude": -25.95758,
+            "longitude": 32.56398
+        },
+        "endPoint": {
+            "latitude": -25.96825,
+            "longitude": 32.58327
+        }
+    }
+]

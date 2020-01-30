@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:elevation="1dp"
+    app:cardCornerRadius="7dp"
+    android:layout_margin="2dp"
+    android:id="@+id/card_view_id"
+
+    >
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/drivers_list_price"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginBottom="8dp"
+            android:text="TextView"
+            app:layout_constraintBottom_toBottomOf="@+id/drivers_list_image"
+            app:layout_constraintEnd_toEndOf="@+id/drivers_list_name"
+            app:layout_constraintStart_toEndOf="@+id/drivers_list_rating"
+            app:layout_constraintTop_toBottomOf="@+id/drivers_list_name" />
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/drivers_list_image"
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:layout_marginStart="8dp"
+
+
+            android:layout_marginTop="8dp"
+            android:src="@drawable/boy"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/drivers_list_name"
+            android:layout_width="0dp"
+            android:layout_height="35dp"
+            android:layout_marginStart="8dp"
+
+            android:layout_marginEnd="8dp"
+            android:text="Manuel Antonio Carlos"
+            android:textSize="24dp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toEndOf="@+id/drivers_list_image"
+            app:layout_constraintTop_toTopOf="@+id/drivers_list_image" />
+
+
+        <RatingBar
+            android:id="@+id/drivers_list_rating"
+            style="@style/Widget.AppCompat.RatingBar.Small"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginBottom="8dp"
+            android:stepSize="0.5"
+            app:layout_constraintBottom_toBottomOf="@+id/drivers_list_image"
+            app:layout_constraintStart_toEndOf="@+id/drivers_list_image"
+            app:layout_constraintTop_toBottomOf="@+id/drivers_list_name"
+            app:layout_constraintVertical_bias="1.0" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</androidx.cardview.widget.CardView>

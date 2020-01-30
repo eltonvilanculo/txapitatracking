@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/maps_profile_header"
+    android:layout_width="match_parent"
+    android:layout_height="150dp"
+    android:background="@drawable/gradient_header"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:visibility="gone"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/perfil_foto"
+            android:layout_width="78dp"
+            android:layout_height="70dp"
+            android:layout_marginLeft="1dp"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/userphoto" />
+
+
+        <TextView
+            android:id="@+id/nome_textView"
+            android:layout_width="264dp"
+
+            android:layout_height="29dp"
+
+
+            android:layout_alignTop="@+id/perfil_foto"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="11dp"
+            android:layout_marginLeft="36dp"
+            android:layout_marginTop="6dp"
+            android:layout_marginEnd="25dp"
+
+            android:layout_marginRight="@dimen/space_24dp"
+            android:layout_toEndOf="@+id/perfil_foto"
+            android:fontFamily="sans-serif"
+            android:text="User name"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textColor="#fff"
+            android:textSize="20sp"
+            app:layout_constraintStart_toEndOf="@+id/perfil_foto"
+            app:layout_constraintTop_toTopOf="parent" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:weightSum="3">
+
+        <TextView
+            android:id="@+id/perfil_textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="11dp"
+            android:layout_marginTop="84dp"
+            android:layout_marginBottom="0dp"
+            android:layout_weight="1"
+            android:fontFamily="sans-serif"
+            android:text="Ver Perfil"
+            android:textColor="#fff" />
+
+        <TextView
+            android:id="@+id/maps_header_balance"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+
+            android:layout_gravity="end"
+            android:layout_marginLeft="55dp"
+            android:layout_marginEnd="18dp"
+            android:layout_marginBottom="0dp"
+            android:layout_weight="2"
+
+            android:fontFamily="sans-serif"
+            android:text="0.00 MT"
+            android:textColor="#fff"
+            android:textSize="20dp" />
+
+
+    </RelativeLayout>
+
+</RelativeLayout>

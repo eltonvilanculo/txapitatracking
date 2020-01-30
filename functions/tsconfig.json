@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "noImplicitReturns": true,
+    "noUnusedLocals": true,
+    "strictNullChecks":false,
+    "outDir": "lib",
+    "sourceMap": true,
+    "strict": true,
+    "target": "es6",
+    
+  },
+  "compileOnSave": true,
+  "include": [
+    "src"
+  ]
+}

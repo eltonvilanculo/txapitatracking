@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <!--cada item e' um grupo -->
+    <item
+        android:id="@+id/group_profile"
+        android:title="Sobre mim"
+
+        >
+        <menu>
+            <item
+                android:id="@+id/nav_home"
+                android:checkable="true"
+                android:icon="@drawable/ic_home"
+                android:title="Home" />
+            <item
+                android:id="@+id/nav_historico"
+                android:icon="@drawable/ic_historico"
+                android:title="@string/history" />
+            <item
+                android:id="@+id/nav_promocao"
+                android:icon="@drawable/ic_promocao"
+                android:title="Promoção" />
+        </menu>
+    </item>
+
+
+    <item
+        android:id="@+id/group_congiguracoes"
+        android:title="Configurações">
+
+        <menu>
+
+            <item
+                android:id="@+id/nav_pagamento"
+                android:icon="@drawable/ic_pagamento"
+                android:title="Recarregar Mbela" />
+            <item
+                android:id="@+id/nav_definicoes"
+                android:icon="@drawable/ic_difinicoes"
+                android:title="Definição" />
+
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/group_carrer"
+        android:title="Boleia">
+
+
+        <menu>
+
+            <item
+                android:id="@+id/nav_dar_boleia"
+                android:icon="@drawable/steering_weell"
+                android:title="Dar"
+
+                />
+
+        </menu>
+
+
+    </item>
+</menu>
